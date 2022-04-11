@@ -27,7 +27,7 @@ ___
 
 ```
 git clone https://github.com/danilw/nanovg-vulkan-glfw-integration-demo
-cd nanovg_vulkan/example
+cd nanovg-vulkan-glfw-integration-demo/example
 mkdir build
 cd build
 cmake ../
