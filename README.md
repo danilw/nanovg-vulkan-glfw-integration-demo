@@ -26,7 +26,7 @@ ___
 (use cmake to build on Windows, Windows/Linux supported and tested)
 
 ```
-git clone --recursive https://github.com/danilw/nanovg_vulkan
+git clone https://github.com/danilw/nanovg_vulkan
 cd nanovg_vulkan/example
 mkdir build
 cd build
