@@ -13,7 +13,7 @@ ___
 To launch - copy builded binary to *example* folder(or launch when this folder is current as on build example commands below). Because required fonts and images/shaders to load.
 ___
 
-# Examples description:
+# Example description:
 
 *Warning* - for now only one *frame in flight* supported. Il update examples and nanovg library latter to add missing support.
 
