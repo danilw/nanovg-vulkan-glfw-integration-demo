@@ -17,7 +17,7 @@ ___
 
 *Warning* - for now only one *frame in flight* supported. Il update examples and nanovg library latter to add missing support.
 
-**example_vulkan_glfw_integration.cpp** - this is example code from [Vulkan-tutorial Depth buffering](https://vulkan-tutorial.com/Depth_buffering) modified adding NanoVG integration. **Look at [this commit ]() to see code changes from original C++ tutorial code**. Hotkey 3 to show/hide nanovg for example.
+**example_vulkan_glfw_integration.cpp** - this is example code from [Vulkan-tutorial Depth buffering](https://vulkan-tutorial.com/Depth_buffering) modified adding NanoVG integration. **Look at [this commit be41caf](https://github.com/danilw/nanovg-vulkan-glfw-integration-demo/commit/be41caf8a1694b5943a33d7c638524294e8545a5) to see code changes from original C++ tutorial code**. Hotkey 3 to show/hide nanovg for example.
 
 About *RenderPass integration* - copy paste code from *integration* examples above after your `vkCmdEndRenderPass` (or before `vkCmdBeginRenderPass`) and everything should work.
 ___
