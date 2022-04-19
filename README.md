@@ -15,11 +15,11 @@ ___
 
 # Example description:
 
-*Warning* - for now only one *frame in flight* supported. Il update examples and nanovg library latter to add missing support.
+*MAX_FRAMES_IN_FLIGHT* - supported and nanovg rendered in multiple frames, screenshot with 600+fps from 2 frames in flight.
 
 **example_vulkan_glfw_integration.cpp** - this is example code from [Vulkan-tutorial Depth buffering](https://vulkan-tutorial.com/Depth_buffering) modified adding NanoVG integration. 
 
-### **Look at [this commit be41caf](https://github.com/danilw/nanovg-vulkan-glfw-integration-demo/commit/be41caf8a1694b5943a33d7c638524294e8545a5) to see code changes from original C++ tutorial code**. 
+### **Look at [this commit 5bdb27f](https://github.com/danilw/nanovg-vulkan-glfw-integration-demo/commit/5bdb27f8de07192a2ffd17d9730aeb66af28f1f3) to see code changes from original C++ tutorial code**. 
 
 Hotkey 3 to show/hide nanovg for example.
 
