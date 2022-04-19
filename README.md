@@ -15,7 +15,7 @@ ___
 
 # Example description:
 
-*MAX_FRAMES_IN_FLIGHT* - **supported** and nanovg rendered in multiple frames, screenshot with 600+fps from 2 frames in flight.
+*MAX_FRAMES_IN_FLIGHT* - **supported** and nanovg rendered in multiple frames, screenshot below with 600+fps from 2 frames in flight.
 
 **example_vulkan_glfw_integration.cpp** - this is example code from [Vulkan-tutorial Depth buffering](https://vulkan-tutorial.com/Depth_buffering) modified adding NanoVG integration. 
 
