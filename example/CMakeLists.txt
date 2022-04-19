@@ -52,7 +52,6 @@ if (BUILD_EXAMPLE_VULKAN_GLFW_INTEGRATION)
         ${COMMON_SRC}
         ../src/nanovg_vk.h
         example_vulkan_glfw_integration.cpp
-        vulkan_util.h
     )
     
     set(VK_TUT_INCLUDE 
