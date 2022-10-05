@@ -1421,7 +1421,8 @@ if(!hidenvg)
         double dt = t - prevt;
         prevt = t;
         updateGraph(&fps[currentFrame], dt);
-        float pxRatio = swapChainExtent.width / (float)winWidth;
+        //float pxRatio = swapChainExtent.width / (float)winWidth;
+        float pxRatio = (float)winWidth / (float)winWidth; //tmp fix, TODO DPI scale crash
 
         double mx, my;
         glfwGetCursorPos(window, &mx, &my);
